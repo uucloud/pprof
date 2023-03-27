@@ -19,7 +19,7 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/google/pprof/pkg/report"
+	"github.com/uucloud/pprof/pkg/report"
 )
 
 // stackView generates the new flamegraph view.

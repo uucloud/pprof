@@ -17,7 +17,7 @@ package report
 import (
 	"regexp"
 
-	"github.com/google/pprof/pkg/graph"
+	"github.com/uucloud/pprof/pkg/graph"
 )
 
 var sepRE = regexp.MustCompile(`::|\.`)

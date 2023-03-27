@@ -31,10 +31,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/pprof/pkg/plugin"
-	"github.com/google/pprof/pkg/proftest"
-	"github.com/google/pprof/pkg/symbolz"
-	"github.com/google/pprof/profile"
+	"github.com/uucloud/pprof/pkg/plugin"
+	"github.com/uucloud/pprof/pkg/proftest"
+	"github.com/uucloud/pprof/pkg/symbolz"
+	"github.com/uucloud/pprof/profile"
 )
 
 var updateFlag = flag.Bool("update", false, "Update the golden files")

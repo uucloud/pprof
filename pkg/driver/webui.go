@@ -27,10 +27,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/pprof/pkg/graph"
-	"github.com/google/pprof/pkg/plugin"
-	"github.com/google/pprof/pkg/report"
-	"github.com/google/pprof/profile"
+	"github.com/uucloud/pprof/pkg/graph"
+	"github.com/uucloud/pprof/pkg/plugin"
+	"github.com/uucloud/pprof/pkg/report"
+	"github.com/uucloud/pprof/profile"
 )
 
 // webInterface holds the state needed for serving a browser based interface.

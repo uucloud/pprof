@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/pprof/pkg/plugin"
-	"github.com/google/pprof/profile"
+	"github.com/uucloud/pprof/pkg/plugin"
+	"github.com/uucloud/pprof/profile"
 )
 
 var (

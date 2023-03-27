@@ -20,9 +20,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/google/pprof/pkg/graph"
-	"github.com/google/pprof/pkg/measurement"
-	"github.com/google/pprof/pkg/report"
+	"github.com/uucloud/pprof/pkg/graph"
+	"github.com/uucloud/pprof/pkg/measurement"
+	"github.com/uucloud/pprof/pkg/report"
 )
 
 type treeNode struct {

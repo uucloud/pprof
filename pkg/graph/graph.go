@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/pprof/profile"
+	"github.com/uucloud/pprof/profile"
 )
 
 var (

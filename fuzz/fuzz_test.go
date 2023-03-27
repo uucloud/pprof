@@ -19,7 +19,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/google/pprof/profile"
+	"github.com/uucloud/pprof/profile"
 )
 
 func TestParseData(t *testing.T) {

@@ -29,9 +29,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/pprof/pkg/measurement"
-	"github.com/google/pprof/pkg/plugin"
-	"github.com/google/pprof/profile"
+	"github.com/uucloud/pprof/pkg/measurement"
+	"github.com/uucloud/pprof/pkg/plugin"
+	"github.com/uucloud/pprof/profile"
 )
 
 // fetchProfiles fetches and symbolizes the profiles specified by s.

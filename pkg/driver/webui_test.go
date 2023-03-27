@@ -27,9 +27,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/google/pprof/pkg/plugin"
-	"github.com/google/pprof/pkg/proftest"
-	"github.com/google/pprof/profile"
+	"github.com/uucloud/pprof/pkg/plugin"
+	"github.com/uucloud/pprof/pkg/proftest"
+	"github.com/uucloud/pprof/profile"
 )
 
 func makeTestServer(t testing.TB, prof *profile.Profile) *httptest.Server {

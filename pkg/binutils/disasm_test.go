@@ -19,7 +19,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/google/pprof/pkg/plugin"
+	"github.com/uucloud/pprof/pkg/plugin"
 )
 
 // TestFindSymbols tests the FindSymbols routine using a hardcoded nm output.

@@ -20,8 +20,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/google/pprof/pkg/binutils"
-	"github.com/google/pprof/pkg/plugin"
+	"github.com/uucloud/pprof/pkg/binutils"
+	"github.com/uucloud/pprof/pkg/plugin"
 )
 
 type source struct {

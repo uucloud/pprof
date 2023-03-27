@@ -29,10 +29,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/pprof/pkg/graph"
-	"github.com/google/pprof/pkg/measurement"
-	"github.com/google/pprof/pkg/plugin"
-	"github.com/google/pprof/profile"
+	"github.com/uucloud/pprof/pkg/graph"
+	"github.com/uucloud/pprof/pkg/measurement"
+	"github.com/uucloud/pprof/pkg/plugin"
+	"github.com/uucloud/pprof/profile"
 )
 
 // printSource prints an annotated source listing, include all

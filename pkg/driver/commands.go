@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/pprof/pkg/plugin"
-	"github.com/google/pprof/pkg/report"
+	"github.com/uucloud/pprof/pkg/plugin"
+	"github.com/uucloud/pprof/pkg/report"
 )
 
 // commands describes the commands accepted by pprof.

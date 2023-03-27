@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/google/pprof/pkg/measurement"
+	"github.com/uucloud/pprof/pkg/measurement"
 )
 
 // DotAttributes contains details about the graph itself, giving

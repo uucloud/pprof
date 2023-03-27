@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/pprof/pkg/plugin"
 	"github.com/ianlancetaylor/demangle"
+	"github.com/uucloud/pprof/pkg/plugin"
 )
 
 var (
