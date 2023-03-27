@@ -60,7 +60,7 @@ func PProf(eo *plugin.Options) error {
 	return interactive(p, o)
 }
 
-func PprofWebHandler(sources []string) (http.Handler, error) {
+func PprofWebHandler(sources []string, options *plugin.Options) (http.Handler, error) {
 	// Remove any temporary files created during pprof processing.
 	defer cleanupTempFiles()
 
@@ -73,8 +73,7 @@ func PprofWebHandler(sources []string) (http.Handler, error) {
 		HTTPHostport:       "",
 		HTTPDisableBrowser: true,
 	}
-	eo := &plugin.Options{}
-	o := setDefaults(eo)
+	o := setDefaults(options)
 
 	//_, _, err := parseFlags(o)
 	//if err != nil {
