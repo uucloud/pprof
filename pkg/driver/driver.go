@@ -138,6 +138,10 @@ func PprofHandle(p *profile.Profile, o *plugin.Options) (http.Handler, error) {
 
 	handler := http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
 		h := args.Handlers[req.URL.Path]
+		if h == nil {
+			// Fall back to default behavior
+			h = http.DefaultServeMux
+		}
 		h.ServeHTTP(w, req)
 	})
 	return handler, nil
